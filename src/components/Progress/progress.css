@@ -1,0 +1,9 @@
+.score-highscore {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.progress {
+  margin-bottom: 36px;
+}

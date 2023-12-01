@@ -1,0 +1,8 @@
+.timer {
+  float: left;
+  font-size: 16px;
+  color: #333635;
+  border: 2px solid #333635;
+  padding: 16px;
+  border-radius: 25px;
+}

@@ -1,0 +1,269 @@
+{
+  "questions": [
+    {
+      "question": "What is the name of the ninja protagonist in Naruto?",
+      "answers": [
+        "Sasuke Uchiha",
+        "Sakura Haruno",
+        "Naruto Uzumaki",
+        "Kakashi Hatake"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "question": "In Dragon Ball Z, what is the signature attack of Goku?",
+      "answers": [
+        "Final Flash",
+        "Kamehameha",
+        "Spirit Bomb",
+        "Big Bank Attack"
+      ],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "question": "Who is the main character in One Piece?",
+      "answers": ["Zoro", "Sanji", "Luffy", "Nami"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the title of the anime about a young boy named Gon Freecss?",
+      "answers": ["Naruto", "Bleach", "Fairy Tail", "Hunter x Hunter"],
+      "correctAnswer": 3,
+      "points": 10
+    },
+    {
+      "question": "In Sailor Moon, what is the civilian name of the titular character?",
+      "answers": ["Serena Tsukino", "Rei Hino", "Minako Aino", "Ami Mizuno"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the main setting of Attack on Titan?",
+      "answers": ["Paradis Island", "Marley", "Siganshina District", "Walls"],
+      "correctAnswer": 3,
+      "points": 10
+    },
+    {
+      "question": "Name the magical girl anime where the protagonist's weapon is a talking cat named Luna.",
+      "answers": [
+        "Cardcaptor Sakura",
+        "Puella Magi Madoka Magica",
+        "Sailer Moon",
+        "Tokyo Mew Mew"
+      ],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "question": "In My Hero Academia, what is the main character, Izuku Midoriya, commonly known as?",
+      "answers": ["All Might", "Kacchan", "Deku", "Endeavor"],
+      "correctAnswer": 2,
+      "points": 10
+    },
+    {
+      "question": "Which anime features a group of pirates led by Monkey D. Luffy?",
+      "answers": ["Fairy Tail", "One Piece", "Black Clover", "Bleach"],
+      "correctAnswer": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the main character's name in Bleach?",
+      "answers": ["Ichigo", "Renji", "Rukia", "Chad"],
+      "correctAnswer": 0,
+      "points": 10
+    },
+    {
+      "question": "What anime are is the main characters brother in a suit of armor?",
+      "answers": ["One Piece", "Full Metal Alchemist", "Naruto", "Tokyo Ghoul"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "question": "Which anime features a group of students trying to assassinate their tentacled teacher, Koro-sensei?",
+      "answers": [
+        "My Hero Academia",
+        "Assassination Classroom",
+        "Classroom of the Elite",
+        "Blue Exorcist"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "question": "In Death Note, what alias does Light Yagami use when reffering to the notebook's power?",
+      "answers": ["Kira", "Shinigami", "L", "Ryuk"],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "question": "What is the name of the mysterious organization in Steins;Gate?",
+      "answers": ["SERN", "Future Gadget Lab", "Rounders", "Lab Members 001"],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "question": "Which anime follows the story of Edward and Alphonse Elric, who use alchemy to find the Philosopher's Stone?",
+      "answers": [
+        "Attack on Titan",
+        "Fullmetal Alchemist",
+        "Code Geass",
+        "Tokyo Ghoul"
+      ],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "question": "In Cowboy Bebop, what is Spike Spiegel's former profession?",
+      "answers": ["Hitman", "Bounty Hunter", "Police Officer", "Smuggler"],
+      "correctAnswer": 1,
+      "points": 20
+    },
+    {
+      "question": "What is the central theme of the anime Neon Genesis Evangelion?",
+      "answers": [
+        "Mecha Battles",
+        "Friendship",
+        "Existentialism",
+        "Time Travel"
+      ],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "question": "In the anime Your Lie in April, what instrument does the main character Kosei Arima play?",
+      "answers": ["Violin", "Guitar", "Piano", "Flute"],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "question": "What is the name of the virtual reality MMORPG in Sword Art Online?",
+      "answers": [
+        "Alfheim Online",
+        "Gun Gale Online",
+        "Aincrad",
+        "Accel World"
+      ],
+      "correctAnswer": 2,
+      "points": 20
+    },
+    {
+      "question": "Which anime explores the themes of artificial intelligence and the blurred line between man and machine?",
+      "answers": [
+        "Ghost in the Shell",
+        "Serial Experiments Lain",
+        "Ergo Proxy",
+        "Psycho-Pass"
+      ],
+      "correctAnswer": 0,
+      "points": 20
+    },
+    {
+      "question": "In 'Neon Genesis Evangelion,' what is the ultimate goal of the mysterious organization SEELE?",
+      "answers": [
+        "Human Instrumentality Project",
+        "World Domination",
+        "Eradicate Angels",
+        "Create Superhumans"
+      ],
+      "correctAnswer": 0,
+      "points": 30
+    },
+    {
+      "question": "Which anime features a complex game called 'The Sekai Seifuku: Bouryaku no Zvezda'?",
+      "answers": [
+        "World Conquest Zvezda Plot",
+        "No Game No Life",
+        "Log Horizon",
+        "Btooom!"
+      ],
+      "correctAnswer": 0,
+      "points": 30
+    },
+    {
+      "question": "In 'Monster,' what is the name of the elusive criminal Dr. Kenzo Tenma is searching for?",
+      "answers": [
+        "Johan Liebert",
+        "Yohan Albert",
+        "Heinrich Braun",
+        "Martin Schneider"
+      ],
+      "correctAnswer": 0,
+      "points": 30
+    },
+    {
+      "question": "Which anime explores the impact of mental illnesses on the characters, including borderline personality disorder?",
+      "answers": [
+        "Welcome to the NHK",
+        "Paranoia Agent",
+        "March Comes in Like a Lion",
+        "Perfect Blue"
+      ],
+      "correctAnswer": 3,
+      "points": 30
+    },
+    {
+      "question": "What is the main plot device in 'Mahou Shoujo Madoka Magica' that twists the magical girl genre?",
+      "answers": [
+        "Time Travel",
+        "Witch Hunts",
+        "Contract with Kyubey",
+        "Parallel Universes"
+      ],
+      "correctAnswer": 2,
+      "points": 30
+    },
+    {
+      "question": "In 'Serial Experiments Lain,' what is the virtual world that blurs the boundary between reality and the Wired?",
+      "answers": ["The Wired", "The Matrix", "The Deep Web", "The Other Side"],
+      "correctAnswer": 0,
+      "points": 30
+    },
+    {
+      "question": "Which anime explores the consequences of altering timelines and the concept of 'D-mails'?",
+      "answers": [
+        "Puella Magi Madoka Magica",
+        "Steins;Gate",
+        "Erased",
+        "Re:Zero"
+      ],
+      "correctAnswer": 1,
+      "points": 30
+    },
+    {
+      "question": "What is the name of the elite school in 'The Irregular at Magic High School' that segregates students based on magical ability?",
+      "answers": [
+        "First High School",
+        "Magic Academy",
+        "Nine Schools Competition",
+        "Bloom vs. Weed"
+      ],
+      "correctAnswer": 0,
+      "points": 30
+    },
+    {
+      "question": "In 'Cowboy Bebop,' what is the significance of the term 'Julia' in Spike Spiegel's past?",
+      "answers": [
+        "Code Name",
+        "Lost Love",
+        "Bounty Target",
+        "Secret Organization"
+      ],
+      "correctAnswer": 1,
+      "points": 30
+    },
+    {
+      "question": "Which anime involves the 'Mushi,' ethereal creatures that exist beyond the perception of most humans?",
+      "answers": [
+        "Natsume's Book of Friends",
+        "Mushishi",
+        "Mononoke",
+        "Kino's Journey"
+      ],
+      "correctAnswer": 1,
+      "points": 30
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headings h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+.headings h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+@media only screen and (max-width: 768px) {
+  .headings h1 {
+    font-size: 36px;
+  }
+  .headings h2 {
+    font-size: 24px;
+  }
+  .headings h1,
+  .headings h3 {
+    text-align: center;
+  }
+}

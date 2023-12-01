@@ -1,0 +1,114 @@
+:root {
+  --color-primary: #fe901f;
+  --color-secondary: #333635;
+  --color-background: #f7f7f7;
+  --color-accent: #57d0e7;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Inter;
+  background-color: var(--color-background);
+  color: var(--color-secondary);
+}
+
+.btn {
+  display: block;
+  font-family: Inter;
+  font-size: 20px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.3;
+  border: none;
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 25px;
+}
+
+.btn-next {
+  float: right;
+  background-color: white;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  border-radius: 25px;
+}
+.btn-next:hover {
+  opacity: 0.6;
+}
+
+.btn-answers {
+  width: 100%;
+  text-align: left;
+  border: 2px solid var(--color-secondary);
+  background-color: white;
+  color: var(--color-secondary);
+  border-radius: 25px;
+  margin-bottom: 16px;
+  padding-left: 24px;
+  font-weight: 600;
+}
+
+.btn-answers.correct {
+  background-color: var(--color-accent);
+  border: none;
+  color: white;
+}
+.btn-answers.wrong {
+  background-color: var(--color-primary);
+  border: none;
+  color: white;
+}
+
+.answer {
+  transform: translateX(16px);
+}
+.btn-answers[disabled]:hover {
+  cursor: not-allowed;
+}
+.btn-answers:not([disabled]):hover {
+  transform: translateX(16px);
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+.main {
+  width: 50rem;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-padding {
+  padding: 16px;
+}
+.result {
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+  padding: 2rem 16px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  .btn-answers:not([disabled]):hover {
+    transform: none;
+  }
+  .answer {
+    transform: none;
+  }
+}
