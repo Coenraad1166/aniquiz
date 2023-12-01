@@ -1,14 +1,16 @@
 function Answers({ question, dispatch, answer }) {
   const hasAnswered = answer !== null;
   return (
-    <div className="answer-container">
+    <div>
       {question.answers.map((option, index) => (
         <button
-          className={`btn btn-answers ${index === answer ? "answer" : ""} ${
+          className={`btn btn-answers ${
             hasAnswered
               ? index === question.correctAnswer
                 ? "correct"
-                : "wrong"
+                : index === answer
+                ? "wrong"
+                : ""
               : ""
           }`}
           key={option}

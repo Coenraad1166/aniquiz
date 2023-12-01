@@ -1,10 +1,21 @@
 import "./question.css";
 import Answers from "../Answers/Answers";
-function Question({ question, dispatch, answer }) {
+import NextButton from "../NextButton/NextButton";
+function Question({ question, dispatch, answer, index, numQuestions }) {
   return (
-    <div>
-      <h4>{question.question}</h4>
-      <Answers question={question} dispatch={dispatch} answer={answer} />
+    <div className="question-container">
+      <div className="width-container">
+        <h4>{question.question}</h4>
+        <Answers question={question} dispatch={dispatch} answer={answer} />
+        <div className="nxt-btn">
+          <NextButton
+            dispatch={dispatch}
+            answer={answer}
+            index={index}
+            numQuestions={numQuestions}
+          />
+        </div>
+      </div>
     </div>
   );
 }

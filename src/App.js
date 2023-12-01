@@ -82,37 +82,35 @@ function App() {
       .catch((err) => dispatch({ type: "dataFailed" }));
   }, []);
   return (
-    <div className="app">
+    <div className="content-container">
+      <header>
+        {status === "ready" && <Logo />}
+        {status === "active" && <Logo />}
+      </header>
       <Main>
-        <Logo />
         {status === "loading" && <Loader />}
         {status === "error" && <Error />}
         {status === "ready" && (
           <StartScreen numQuestions={numQuestions} dispatch={dispatch} />
         )}
         {status === "active" && (
-          <div className="content-padding">
+          <div>
             <Progress
               index={index}
               numQuestions={numQuestions}
               points={points}
               answer={answer}
               highscore={highscore}
+              dispatch={dispatch}
+              secondsRemaining={secondsRemaining}
             />
             <Question
               question={questions[index]}
               dispatch={dispatch}
               answer={answer}
+              numQuestions={numQuestions}
+              index={index}
             />
-            <Footer>
-              <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
-              <NextButton
-                dispatch={dispatch}
-                answer={answer}
-                numQuestions={numQuestions}
-                index={index}
-              />
-            </Footer>
           </div>
         )}
         {status === "finished" && (
@@ -123,6 +121,17 @@ function App() {
           />
         )}
       </Main>
+      {status === "ready" && (
+        <div className="btn-wrapper">
+          <button
+            style={{ maxWidth: 413, width: "100%" }}
+            className="btn btn-primary"
+            onClick={() => dispatch({ type: "start" })}
+          >
+            Start Quiz
+          </button>
+        </div>
+      )}
     </div>
   );
 }

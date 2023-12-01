@@ -1,10 +1,6 @@
 import "./logo.css";
 function Logo() {
-  return (
-    <header className="logo">
-      <img src="logo.png" />
-    </header>
-  );
+  return <img src="logo.png" style={{ height: 70, width: "auto" }} />;
 }
 
 export default Logo;

@@ -1,0 +1,7 @@
+.nxt-container {
+  display: flex;
+  margin-top: 16px;
+}
+.test {
+  width: 100px;
+}
